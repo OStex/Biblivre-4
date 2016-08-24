@@ -138,12 +138,16 @@
             <groupId>org.marc4j</groupId>
             <artifactId>marc4j</artifactId>
             <version>2.5.1.beta</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/jar/marc4j-2.5.1.beta.jar</systemPath>
         </dependency>
 		
         <dependency>
             <groupId>com.ibm.icu</groupId>
             <artifactId>normalizer</artifactId>
             <version>2.6</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/jar/normalizer-2.6.jar</systemPath>
         </dependency>		
 
         <!-- z39.50 -->
@@ -151,16 +155,22 @@
             <groupId>org.jzkit</groupId>
             <artifactId>jzkit2_core</artifactId>
             <version>2.2.3</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/jar/jzkit2_core-2.2.3.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>org.jzkit</groupId>
             <artifactId>jzkit2_jdbc_plugin</artifactId>
             <version>2.2.3</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/jar/jzkit2_jdbc_plugin-2.2.3.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>org.jzkit</groupId>
             <artifactId>jzkit2_service</artifactId>
             <version>2.2.3</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/jar/jzkit2_service-2.2.3.jar</systemPath>
         </dependency>
 
         <!-- z39.50 -->
@@ -190,6 +200,8 @@
                     <groupId>ant</groupId>
                 </exclusion>
             </exclusions>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/jar/jzkit2_z3950_plugin-2.2.3.jar</systemPath>
         </dependency>
 		
         <dependency>
@@ -214,6 +226,8 @@
             <groupId>com.lowagie</groupId>
             <artifactId>itext</artifactId>
             <version>4.2.1</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/jar/itext-4.2.1.jar</systemPath>
         </dependency>
 
         <!-- z39.50 server dependency -->
@@ -221,6 +235,8 @@
             <groupId>br.org.biblivre</groupId>
             <artifactId>z3950server</artifactId>
             <version>1.0.2</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/jar/z3950server-1.0.2.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>log4j</groupId>
@@ -238,12 +254,13 @@
             <version>2.5.6</version>
         </dependency>
         
-        <!-- https://mvnrepository.com/artifact/javax.servlet.jsp/jsp-api -->
+        <!-- https://mvnrepository.com/artifact/javax.servlet/jsp-api -->
         <dependency>
-            <groupId>javax.servlet.jsp</groupId>
+            <groupId>javax.servlet</groupId>
             <artifactId>jsp-api</artifactId>
-            <version>2.2</version>
+            <version>2.0</version>
         </dependency>
+
         
         <!-- https://mvnrepository.com/artifact/org.jzkit/a2j -->
         <dependency>
